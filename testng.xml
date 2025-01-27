@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <listeners>
+<listener class-name = "com.entry.util.Extentreport"></listener>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+    
+    <class name="com.entry.testcases.Outside_Expansion_Before"/>
+    <class name="com.entry.testcases.Outside_After_lessthan2Year"/>
+    <class name="com.entry.testcases.Outside_After_Greaterthan2year"/>
+    <class name="com.entry.testcases.Outside_After_ComopNotStart"/>
+    <class name="com.entry.testcases.Incorp_After_Com_NotStarted"/>
+    <class name="com.entry.testcases.Incorp_After_Comgreaterthan2year"/>
+    <class name="com.entry.testcases.Incorp_After_Comlessthan2year"/>
+    <class name="com.entry.testcases.IncorpBefore_SetcomAfter_Greaterthan2year"/>
+    <class name="com.entry.testcases.IncorpBefore_SetcomAfter_lessthan2year"/>
+    <class name="com.entry.testcases.IncorpSetBefore_Comafter_Greaterthan2year"/>
+    <class name="com.entry.testcases.IncorpSetBefore_Comafter_lessthan2year"/>
+    <class name="com.entry.testcases.Newunit_Alldate_before_Expansion"/>
+    
+    
+    </classes>
+  </test> <!-- Test -->
+
+</suite> <!-- Suite -->

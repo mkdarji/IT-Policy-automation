@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-24T19:50:01 IST" name="Default suite" finished-at="2025-01-24T19:51:17 IST" duration-ms="76493">
+    <groups>
+    </groups>
+    <test started-at="2025-01-24T19:50:01 IST" name="Default test" finished-at="2025-01-24T19:51:17 IST" duration-ms="76493">
+      <class name="com.entry.testcases.Outside_After_Greaterthan2year">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.entry.testcases.Outside_After_Greaterthan2year@198b6731]" started-at="2025-01-24T19:50:01 IST" name="setup" finished-at="2025-01-24T19:50:07 IST" duration-ms="5521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="sc1()[pri:1, instance:com.entry.testcases.Outside_After_Greaterthan2year@198b6731]" started-at="2025-01-24T19:50:07 IST" name="sc1" finished-at="2025-01-24T19:51:17 IST" duration-ms="70607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sc1 -->
+        <test-method is-config="true" signature="tear()[pri:0, instance:com.entry.testcases.Outside_After_Greaterthan2year@198b6731]" started-at="2025-01-24T19:51:17 IST" name="tear" finished-at="2025-01-24T19:51:17 IST" duration-ms="314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+      </class> <!-- com.entry.testcases.Outside_After_Greaterthan2year -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
