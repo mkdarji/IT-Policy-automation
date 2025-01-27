@@ -336,7 +336,7 @@ public class Incorp_After_Comgreaterthan2year extends Baseclass {
 	    
 	    String ver1 = i.vrfsuceesunit();
 	    Assert.assertEquals(ver1, "IT/ITeS New Unit", "Verify scenario");
-	    System.out.println("Test Case 2 Passed: Application Created successful.");
+	    System.out.println("Test Case 2 Passed: Application Created successfully.");
 	} catch (AssertionError e) {
 	    System.out.println("Test Case 2 Failed: " + e.getMessage());
 	}
