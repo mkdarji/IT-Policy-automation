@@ -336,7 +336,7 @@ public class Outside_After_Greaterthan2year extends Baseclass{
 	    
 	    String ver1 = i.vrfsuceesunit();
 	    Assert.assertEquals(ver1, "Currently you are not eligible for Incentive Application as your employee count is less than 50.", "Verify scenario");
-	    System.out.println("Test Case 2 Passed: Eligibility message verification successful.");
+	    System.out.println("Test Case 2 Passed: Application Created successful.");
 	} catch (AssertionError e) {
 	    System.out.println("Test Case 2 Failed: " + e.getMessage());
 	}
