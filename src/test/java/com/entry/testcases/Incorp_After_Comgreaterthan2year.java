@@ -138,7 +138,7 @@ public class Incorp_After_Comgreaterthan2year extends Baseclass {
 	i.Commercial_started();
 	i.comdate("July 2022", "10");
 	Thread.sleep(3000);
-	i.unitselection("");
+	i.unitselection("IT/ITeS New Unit");
 	i.emp("50");
 	i.DeeptechYes();
 	i.lptp("60");
@@ -160,7 +160,7 @@ public class Incorp_After_Comgreaterthan2year extends Baseclass {
 	    Thread.sleep(5000);
 	    
 	    String ver1 = i.vrfsuceesunit();
-	    Assert.assertEquals(ver1, "IT/ITeS New UnitIT/ITeS New Unit", "Verify scenario");
+	    Assert.assertEquals(ver1, "IT/ITeS New Unit", "Verify scenario");
 	    System.out.println("Test Case 2 Passed: Application Created successful.");
 	} catch (AssertionError e) {
 	    System.out.println("Test Case 2 Failed: " + e.getMessage());
@@ -201,6 +201,7 @@ public class Incorp_After_Comgreaterthan2year extends Baseclass {
 	i.setdate("July 2022", "10");
 	Thread.sleep(2000);
 	i.Commercial_started();
+	Thread.sleep(3000);
 	i.comdate("July 2022", "10");
 	Thread.sleep(3000);
 	i.unitselection("IT/ITeS New Unit");
@@ -256,6 +257,7 @@ public class Incorp_After_Comgreaterthan2year extends Baseclass {
 	i.setdate("July 2022", "10");
 	Thread.sleep(2000);
 	i.Commercial_started();
+	Thread.sleep(3000);
 	i.comdate("July 2022", "10");
 	Thread.sleep(3000);
 	i.unitselection("IT/ITeS New Unit");
@@ -379,10 +381,12 @@ public class Incorp_After_Comgreaterthan2year extends Baseclass {
 		i.DeeptechYes();
 		Thread.sleep(3000);
 		i.Commercial_started();
+		Thread.sleep(3000);
 		i.comdate("July 2022", "10");
 		Thread.sleep(3000);
-		i.unitselection("Expansion");
+		i.unitselection("IT/ITeS Expansion Unit");
 		i.emp("30");
+		Thread.sleep(3000);
 		i.Exp_Yr("2022");
 		Thread.sleep(3000);
 		i.Exp_Mon("March");
@@ -435,11 +439,13 @@ public class Incorp_After_Comgreaterthan2year extends Baseclass {
 		i.DeeptechNO();
 		Thread.sleep(3000);
 		i.Commercial_started();
+		Thread.sleep(3000);
 		i.comdate("July 2022", "10");
 		Thread.sleep(3000);
-		i.unitselection("Expansion");
+		i.unitselection("IT/ITeS Expansion Unit");
 		Thread.sleep(2000);
 		i.emp("30");
+		Thread.sleep(3000);
 		i.Exp_Yr("2022");
 		Thread.sleep(3000);
 		i.Exp_Mon("March");
@@ -492,10 +498,12 @@ public class Incorp_After_Comgreaterthan2year extends Baseclass {
 	i.DeeptechYes();
 	Thread.sleep(3000);
 	i.Commercial_started();
+	Thread.sleep(3000);
 	i.comdate("July 2022", "10");
 	Thread.sleep(3000);
-	i.unitselection("Expansion");
+	i.unitselection("IT/ITeS Expansion Unit");
 	i.emp("30");
+	Thread.sleep(3000);
 	i.Exp_Yr("2023");
 	Thread.sleep(3000);
 	i.Exp_Mon("May");
@@ -558,17 +566,17 @@ public class Incorp_After_Comgreaterthan2year extends Baseclass {
 	i.Outside_No();
 	i.pan("SSFDE1234K");
 	Thread.sleep(2000);
-	i.incorpdate("January 2022", "10");
+	i.incorpdate("July 2022", "10");
 	Thread.sleep(2000);
-	i.setdate("February 2022", "2");
+	i.setdate("July 2022", "10");
 	Thread.sleep(2000);
-	i.DeeptechNO();
+	i.DeeptechYes();
 	Thread.sleep(3000);
 	i.Commercial_started();
 	Thread.sleep(3000);
-	i.comdate("February 2022", "3");
-	Thread.sleep(2000);
-	i.unitselection("Expansion");
+	i.comdate("July 2022", "10");
+	Thread.sleep(3000);
+	i.unitselection("IT/ITeS Expansion Unit");
 	i.emp("30");
 	i.Exp_Yr("2023");
 	Thread.sleep(3000);
