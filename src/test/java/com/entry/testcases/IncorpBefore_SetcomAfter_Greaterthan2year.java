@@ -573,7 +573,7 @@ public class IncorpBefore_SetcomAfter_Greaterthan2year extends Baseclass {
 	i.emp("30");
 	i.Exp_Yr("2023");
 	Thread.sleep(3000);
-	i.Exp_Mon("May");
+	i.Exp_Mon("Augst");
 	Thread.sleep(5000);
 	i.lptp("30");
 	i.clickeligible();
@@ -595,7 +595,7 @@ public class IncorpBefore_SetcomAfter_Greaterthan2year extends Baseclass {
 	    
 	    String ver1 = i.vrfsuceesunit();
 	    Assert.assertEquals(ver1, "IT/ITeS Expansion Unit", "Verify scenario");
-	    System.out.println("Test Case 2 Passed: Application successful.");
+	    System.out.println("Test Case 2 Passed: Application Created successful.");
 	} catch (AssertionError e) {
 	    System.out.println("Test Case 2 Failed: " + e.getMessage());
 	}

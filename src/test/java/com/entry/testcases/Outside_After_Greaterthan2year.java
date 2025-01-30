@@ -487,22 +487,23 @@ public class Outside_After_Greaterthan2year extends Baseclass{
 	Thread.sleep(2000);
 	i.incorpdate("July 2022", "10");
 	Thread.sleep(2000);
-	i.setdate("July 2022", "10");
+	i.setdate("July 2022", "12");
 	Thread.sleep(2000);
-	i.DeeptechYes();
+	i.DeeptechNO();
 	Thread.sleep(3000);
 	i.Commercial_started();
-	i.comdate("July 2022", "10");
 	Thread.sleep(3000);
-	i.unitselection("IT/ITeS Expansion Unit");
+	i.comdate("July 2022", "13");
+	Thread.sleep(4000);
+	i.unitselection("Expansion");
+	Thread.sleep(3000);
 	i.emp("30");
 	i.Exp_Yr("2023");
 	Thread.sleep(3000);
-	i.Exp_Mon("May");
+	i.Exp_Mon("August");
 	Thread.sleep(5000);
 	i.lptp("30");
-	i.clickeligible();
-	
+	i.clickeligible();	
 	
 	try {
 	    Thread.sleep(5000);
@@ -560,18 +561,20 @@ public class Outside_After_Greaterthan2year extends Baseclass{
 	Thread.sleep(2000);
 	i.incorpdate("July 2022", "10");
 	Thread.sleep(2000);
-	i.setdate("July 2022", "10");
+	i.setdate("July 2022", "12");
 	Thread.sleep(2000);
-	i.DeeptechYes();
+	i.DeeptechNO();
 	Thread.sleep(3000);
 	i.Commercial_started();
-	i.comdate("July 2022", "10");
 	Thread.sleep(3000);
-	i.unitselection("IT/ITeS Expansion Unit");
+	i.comdate("July 2022", "13");
+	Thread.sleep(4000);
+	i.unitselection("Expansion");
+	Thread.sleep(3000);
 	i.emp("30");
 	i.Exp_Yr("2023");
 	Thread.sleep(3000);
-	i.Exp_Mon("May");
+	i.Exp_Mon("August");
 	Thread.sleep(5000);
 	i.lptp("30");
 	i.clickeligible();

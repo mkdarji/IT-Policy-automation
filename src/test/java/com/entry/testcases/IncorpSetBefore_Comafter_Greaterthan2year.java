@@ -575,7 +575,7 @@ public class IncorpSetBefore_Comafter_Greaterthan2year extends Baseclass{
 	i.emp("30");
 	i.Exp_Yr("2023");
 	Thread.sleep(3000);
-	i.Exp_Mon("May");
+	i.Exp_Mon("August");
 	Thread.sleep(5000);
 	i.lptp("30");
 	i.clickeligible();

@@ -5,7 +5,7 @@ import java.util.Properties;
 
 public class readconfig {
 	Properties pr;
-	String path = "D:\\MITESH\\Eligibility check\\IT-Policy-automation\\Configuration\\config.properties";
+	String path = "E:\\Validation_DemoPOM_Latest (2)\\Validation_DemoPOM_Latest\\Validation_DemoPOM\\Validation_DemoPOM\\Configuration\\config.properties";
 	
 	
 	

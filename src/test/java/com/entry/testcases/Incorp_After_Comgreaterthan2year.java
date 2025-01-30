@@ -506,7 +506,7 @@ public class Incorp_After_Comgreaterthan2year extends Baseclass {
 	Thread.sleep(3000);
 	i.Exp_Yr("2023");
 	Thread.sleep(3000);
-	i.Exp_Mon("May");
+	i.Exp_Mon("September");
 	Thread.sleep(5000);
 	i.lptp("30");
 	i.clickeligible();
@@ -580,7 +580,7 @@ public class Incorp_After_Comgreaterthan2year extends Baseclass {
 	i.emp("30");
 	i.Exp_Yr("2023");
 	Thread.sleep(3000);
-	i.Exp_Mon("May");
+	i.Exp_Mon("September");
 	Thread.sleep(5000);
 	i.lptp("30");
 	i.clickeligible();
