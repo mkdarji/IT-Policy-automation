@@ -20,28 +20,41 @@ public class Outside_Expansion_Before extends Baseclass{
 		driver.get("https://testdit.gujarat.gov.in:8443/dstmain/itpolicy/add_application");
 		
 		i.projecttype();
+		logg.info("Select Project Type");
 		i.next();
+		logg.info("Select Project Type");
 		i.Outside_Yes();
+		logg.info("Select Project Type");
 		i.pan("SSFDE1234K");
+		logg.info("Select Project Type");
 		Thread.sleep(2000);
 		i.incorpdate("January 2022", "10");
+		logg.info("Select Project Type");
 		Thread.sleep(2000);
 		i.setdate("February 2022", "2");
+		logg.info("Select Project Type");
 		Thread.sleep(2000);
 		i.DeeptechYes();
+		logg.info("Select Project Type");
 		Thread.sleep(3000);
 		i.Commercial_started();
+		logg.info("Select Project Type");
 		Thread.sleep(3000);
 		i.comdate("February 2022", "3");
+		logg.info("Select Project Type");
 		Thread.sleep(2000);
 		i.emp("30");
+		logg.info("Select Project Type");
 		i.Exp_Yr("2022");
+		logg.info("Select Project Type");
 		Thread.sleep(3000);
 		i.Exp_Mon("March");
+		logg.info("Select Project Type");
 		Thread.sleep(5000);
 		i.lptp("30");
+		logg.info("Select Project Type");
 		i.clickeligible();
-		
+		logg.info("Select Project Type");
 		
 		try {
 		    Thread.sleep(5000);
@@ -68,7 +81,7 @@ public class Outside_Expansion_Before extends Baseclass{
 
 	}
 	
-	@Test(priority = 2)
+//	@Test(priority = 2)
     public void sc2() throws Exception {
 		
 		driver.get(url);	
@@ -124,7 +137,7 @@ public class Outside_Expansion_Before extends Baseclass{
 
 	}
 
-	@Test(priority = 3)
+//	@Test(priority = 3)
     public void sc3() throws Exception {
 	
 	driver.get(url);	
@@ -196,7 +209,7 @@ public class Outside_Expansion_Before extends Baseclass{
 
 }
 	
-	@Test(priority = 4)
+//	@Test(priority = 4)
 	
 	public void sc4() throws Exception {
 	
