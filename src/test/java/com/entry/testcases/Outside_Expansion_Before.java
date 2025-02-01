@@ -22,39 +22,39 @@ public class Outside_Expansion_Before extends Baseclass{
 		i.projecttype();
 		logg.info("Select Project Type");
 		i.next();
-		logg.info("Select Project Type");
+		logg.info("Click on Next");
 		i.Outside_Yes();
-		logg.info("Select Project Type");
+		logg.info("select - yes");
 		i.pan("SSFDE1234K");
-		logg.info("Select Project Type");
+		logg.info("PAN Entered");
 		Thread.sleep(2000);
 		i.incorpdate("January 2022", "10");
-		logg.info("Select Project Type");
+		logg.info("Incorporation date entered");
 		Thread.sleep(2000);
 		i.setdate("February 2022", "2");
-		logg.info("Select Project Type");
+		logg.info("Settingup date entered");
 		Thread.sleep(2000);
 		i.DeeptechYes();
-		logg.info("Select Project Type");
+		logg.info("Select Deeptech - Yes");
 		Thread.sleep(3000);
 		i.Commercial_started();
-		logg.info("Select Project Type");
+		logg.info("Operation started - Yes");
 		Thread.sleep(3000);
 		i.comdate("February 2022", "3");
-		logg.info("Select Project Type");
+		logg.info("Commercial date entered");
 		Thread.sleep(2000);
 		i.emp("30");
-		logg.info("Select Project Type");
+		logg.info("Entered EMP count");
 		i.Exp_Yr("2022");
-		logg.info("Select Project Type");
+		logg.info("Select Expansion Year");
 		Thread.sleep(3000);
 		i.Exp_Mon("March");
-		logg.info("Select Project Type");
+		logg.info("Select Expansion Month");
 		Thread.sleep(5000);
 		i.lptp("30");
-		logg.info("Select Project Type");
+		logg.info("Entered Laptop Count");
 		i.clickeligible();
-		logg.info("Select Project Type");
+		logg.info("Click on Eligibility");
 		
 		try {
 		    Thread.sleep(5000);
@@ -81,7 +81,7 @@ public class Outside_Expansion_Before extends Baseclass{
 
 	}
 	
-//	@Test(priority = 2)
+	@Test(priority = 2)
     public void sc2() throws Exception {
 		
 		driver.get(url);	
@@ -137,7 +137,7 @@ public class Outside_Expansion_Before extends Baseclass{
 
 	}
 
-//	@Test(priority = 3)
+	@Test(priority = 3)
     public void sc3() throws Exception {
 	
 	driver.get(url);	
@@ -209,7 +209,7 @@ public class Outside_Expansion_Before extends Baseclass{
 
 }
 	
-//	@Test(priority = 4)
+	@Test(priority = 4)
 	
 	public void sc4() throws Exception {
 	

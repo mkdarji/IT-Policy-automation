@@ -495,7 +495,7 @@ public class Outside_After_Greaterthan2year extends Baseclass{
 	Thread.sleep(3000);
 	i.comdate("July 2022", "13");
 	Thread.sleep(4000);
-	i.unitselection("Expansion");
+	i.unitselection("IT/ITeS Expansion Unit");
 	Thread.sleep(3000);
 	i.emp("30");
 	i.Exp_Yr("2023");
@@ -569,7 +569,7 @@ public class Outside_After_Greaterthan2year extends Baseclass{
 	Thread.sleep(3000);
 	i.comdate("July 2022", "13");
 	Thread.sleep(4000);
-	i.unitselection("Expansion");
+	i.unitselection("IT/ITeS Expansion Unit");
 	Thread.sleep(3000);
 	i.emp("30");
 	i.Exp_Yr("2023");
