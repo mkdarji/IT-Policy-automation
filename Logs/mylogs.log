@@ -58,3 +58,17 @@
 [INFO ] 2025-02-01 13:25:16.457 [main] IT-Policy-automation - Entered Laptop Count
 [INFO ] 2025-02-01 13:25:16.543 [main] IT-Policy-automation - Click on Eligibility
 [INFO ] 2025-02-01 13:25:16.543 [main] IT-Policy-automation - Click on Eligibility
+[INFO ] 2025-02-02 16:29:51.463 [main] Validation_DemoPOM - Select Project Type
+[INFO ] 2025-02-02 16:29:52.027 [main] Validation_DemoPOM - Click on Next
+[INFO ] 2025-02-02 16:29:52.764 [main] Validation_DemoPOM - select - yes
+[INFO ] 2025-02-02 16:29:52.899 [main] Validation_DemoPOM - PAN Entered
+[INFO ] 2025-02-02 16:30:05.405 [main] Validation_DemoPOM - Incorporation date entered
+[INFO ] 2025-02-02 16:30:17.371 [main] Validation_DemoPOM - Settingup date entered
+[INFO ] 2025-02-02 16:30:19.487 [main] Validation_DemoPOM - Select Deeptech - Yes
+[INFO ] 2025-02-02 16:30:22.588 [main] Validation_DemoPOM - Operation started - Yes
+[INFO ] 2025-02-02 16:30:35.630 [main] Validation_DemoPOM - Commercial date entered
+[INFO ] 2025-02-02 16:30:37.728 [main] Validation_DemoPOM - Entered EMP count
+[INFO ] 2025-02-02 16:30:37.820 [main] Validation_DemoPOM - Select Expansion Year
+[INFO ] 2025-02-02 16:30:40.899 [main] Validation_DemoPOM - Select Expansion Month
+[INFO ] 2025-02-02 16:30:45.991 [main] Validation_DemoPOM - Entered Laptop Count
+[INFO ] 2025-02-02 16:30:46.141 [main] Validation_DemoPOM - Click on Eligibility
