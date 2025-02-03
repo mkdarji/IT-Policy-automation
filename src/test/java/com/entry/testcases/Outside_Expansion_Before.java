@@ -8,19 +8,24 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import com.aventstack.extentreports.model.Log;
 import com.entry.pageobject.Index1;
 
 public class Outside_Expansion_Before extends Baseclass{
+	
+	
 
 	@Test(priority = 1)
 	public void sc1() throws Exception {
+		
+		logg.info("----------Outside Gujarat Date Before Policy Period  Unit Type(Expansion) scenario 1-------------");
 		
 		driver.get(url);	
 		Index1 i = new Index1(driver);
 		driver.get("https://testdit.gujarat.gov.in:8443/dstmain/itpolicy/add_application");
 		
 		i.projecttype();
-		logg.info("Select Project Type");
+		logg.info("Selected Project Type");
 		i.next();
 		logg.info("Click on Next");
 		i.Outside_Yes();
@@ -29,30 +34,30 @@ public class Outside_Expansion_Before extends Baseclass{
 		logg.info("PAN Entered");
 		Thread.sleep(2000);
 		i.incorpdate("January 2022", "10");
-		logg.info("Incorporation date entered");
+		logg.info("Incorporation date enter successfully");
 		Thread.sleep(2000);
 		i.setdate("February 2022", "2");
-		logg.info("Settingup date entered");
+		logg.info("Settingup date enter successfully");
 		Thread.sleep(2000);
 		i.DeeptechYes();
 		logg.info("Select Deeptech - Yes");
 		Thread.sleep(3000);
 		i.Commercial_started();
-		logg.info("Operation started - Yes");
+		logg.info("Commercial Operation Started - Yes");
 		Thread.sleep(3000);
 		i.comdate("February 2022", "3");
-		logg.info("Commercial date entered");
+		logg.info("Commercial date enter successfully");
 		Thread.sleep(2000);
 		i.emp("30");
-		logg.info("Entered EMP count");
+		logg.info(" EMP Count Entered");
 		i.Exp_Yr("2022");
-		logg.info("Select Expansion Year");
+		logg.info("Selected Expansion Year");
 		Thread.sleep(3000);
 		i.Exp_Mon("March");
-		logg.info("Select Expansion Month");
+		logg.info("Selected Expansion Month");
 		Thread.sleep(5000);
 		i.lptp("30");
-		logg.info("Entered Laptop Count");
+		logg.info("Laptop Count Entered ");
 		i.clickeligible();
 		logg.info("Click on Eligibility");
 		
@@ -60,9 +65,9 @@ public class Outside_Expansion_Before extends Baseclass{
 		    Thread.sleep(5000);
 		    String ver = i.vrfunit();
 		    Assert.assertEquals(ver, "IT/ITeS Expansion Unit", "Verify results");
-		    System.out.println("Test Case 1 Passed: Unit verification successful.");
+		    logg.info("Unit Verification Successfully: {}", ver);
 		} catch (AssertionError e) {
-		    System.out.println("Test Case 1 Failed: " + e.getMessage());
+		    System.out.println("Unit Verification Failed: " + e.getMessage());
 		}
 
 		try {
@@ -72,28 +77,37 @@ public class Outside_Expansion_Before extends Baseclass{
 		    
 		    String ver1 = i.vrfval();
 		    Assert.assertEquals(ver1, "You are not eligible for the policy as of now, as your Commercial operation started less than a year ago. You may try again later once your Commercial operation date is at least 12 months old from the date of Expansion", "Verify scenario");
-		    System.out.println("Test Case 2 Passed: Eligibility error message verification successful.");
+		    logg.info("Eligibility Error message for (Expansion Month-Year and Commercial date not completed 1 year): {}", ver1);
+		  
 		} catch (AssertionError e) {
-		    System.out.println("Test Case 2 Failed: " + e.getMessage());
+		    System.out.println("Verification Failed: " + e.getMessage());
 		}
 
-		Thread.sleep(5000);
+		Thread.sleep(3000);
 
 	}
 	
+	
 	@Test(priority = 2)
     public void sc2() throws Exception {
+		
+		logg.info("----------Outside Gujarat Before Policy Period Date Unit(Expansion) scenario 2-------------");
 		
 		driver.get(url);	
 		Index1 i = new Index1(driver);
 		driver.get("https://testdit.gujarat.gov.in:8443/dstmain/itpolicy/add_application");
 		
 		i.projecttype();
+		logg.info("Selected Project Type");
 		i.next();
+		logg.info("Click on Next");
 		i.Outside_Yes();
+		logg.info("select - yes");
 		i.pan("SSFDE1234K");
+		logg.info("PAN Entered");
 		Thread.sleep(2000);
 		i.incorpdate("January 2022", "10");
+		logg.info("Incorporation date enter successfully");
 		Thread.sleep(2000);
 		i.setdate("February 2022", "2");
 		Thread.sleep(2000);
@@ -116,9 +130,9 @@ public class Outside_Expansion_Before extends Baseclass{
 		    Thread.sleep(5000);
 		    String ver = i.vrfunit();
 		    Assert.assertEquals(ver, "IT/ITeS Expansion Unit", "Verify results");
-		    System.out.println("Test Case 1 Passed: Unit verification successful.");
+		    logg.info("Unit Verification Successfully: {}", ver);
 		} catch (AssertionError e) {
-		    System.out.println("Test Case 1 Failed: " + e.getMessage());
+		    System.out.println("Unit Verification Failed: " + e.getMessage());
 		}
 
 		try {
@@ -128,17 +142,21 @@ public class Outside_Expansion_Before extends Baseclass{
 		    
 		    String ver1 = i.vrfval();
 		    Assert.assertEquals(ver1, "You are not eligible for the policy as of now, as your Commercial operation started less than a year ago. You may try again later once your Commercial operation date is at least 12 months old from the date of Expansion", "Verify scenario");
-		    System.out.println("Test Case 2 Passed: Eligibility error message verification successful.");
+		    logg.info("Eligibility Error message for (Expansion Month-Year and Commercial date not completed 1 year): {}", ver1);
+		  
 		} catch (AssertionError e) {
-		    System.out.println("Test Case 2 Failed: " + e.getMessage());
+		    System.out.println("Verification Failed: " + e.getMessage());
 		}
 
-		Thread.sleep(5000);
+		Thread.sleep(3000);
 
 	}
 
+	
 	@Test(priority = 3)
     public void sc3() throws Exception {
+		
+		logg.info("----------Outside Gujarat Before Policy Period Date Unit(Expansion) scenario 3-------------");
 	
 	driver.get(url);	
 	Index1 i = new Index1(driver);
@@ -172,9 +190,9 @@ public class Outside_Expansion_Before extends Baseclass{
 	    Thread.sleep(5000);
 	    String ver = i.vrfunit();
 	    Assert.assertEquals(ver, "IT/ITeS Expansion Unit", "Verify results");
-	    System.out.println("Test Case 1 Passed: Unit verification successful.");
+	    logg.info("Unit Verification Successfully: {}", ver);
 	} catch (AssertionError e) {
-	    System.out.println("Test Case 1 Failed: " + e.getMessage());
+		System.out.println("Unit Verification Failed: " + e.getMessage());
 	}
 
 	try {
@@ -184,9 +202,9 @@ public class Outside_Expansion_Before extends Baseclass{
 	    
 	    String ver1 = i.vrfsuceesunit();
 	    Assert.assertEquals(ver1, "IT/ITeS Expansion Unit", "Verify scenario");
-	    System.out.println("Test Case 2 Passed: Application Created successful.");
+	    logg.info("Application Created Successfully: {}", ver1);
 	} catch (AssertionError e) {
-	    System.out.println("Test Case 2 Failed: " + e.getMessage());
+		System.out.println("Application Creation Failed: " + e.getMessage());
 	}
 
 
@@ -203,8 +221,8 @@ public class Outside_Expansion_Before extends Baseclass{
 	// Now handle the alert
 	Alert alert = driver.switchTo().alert();
 	alert.accept();
-
-	Thread.sleep(5000);
+    logg.info("Application Revoked Successfully");
+	Thread.sleep(3000);
 
 
 }
@@ -212,6 +230,8 @@ public class Outside_Expansion_Before extends Baseclass{
 	@Test(priority = 4)
 	
 	public void sc4() throws Exception {
+		
+		logg.info("----------Outside Gujarat Before Policy Period Date Unit(Expansion) scenario 4-------------");
 	
 	driver.get(url);	
 	Index1 i = new Index1(driver);
@@ -245,9 +265,9 @@ public class Outside_Expansion_Before extends Baseclass{
 	    Thread.sleep(5000);
 	    String ver = i.vrfunit();
 	    Assert.assertEquals(ver, "IT/ITeS Expansion Unit", "Verify results");
-	    System.out.println("Test Case 1 Passed: Unit verification successful.");
+	    logg.info("Unit Verification Successfully: {}", ver);
 	} catch (AssertionError e) {
-	    System.out.println("Test Case 1 Failed: " + e.getMessage());
+		System.out.println("Unit Verification Failed: " + e.getMessage());
 	}
 
 	try {
@@ -257,9 +277,9 @@ public class Outside_Expansion_Before extends Baseclass{
 	    
 	    String ver1 = i.vrfsuceesunit();
 	    Assert.assertEquals(ver1, "IT/ITeS Expansion Unit", "Verify scenario");
-	    System.out.println("Test Case 2 Passed: Application Created successful.");
+	    logg.info("Application Created Successfully: {}", ver1);
 	} catch (AssertionError e) {
-	    System.out.println("Test Case 2 Failed: " + e.getMessage());
+		System.out.println("Application Creation Failed: " + e.getMessage());
 	}
 
 
@@ -276,9 +296,8 @@ public class Outside_Expansion_Before extends Baseclass{
 	// Now handle the alert
 	Alert alert = driver.switchTo().alert();
 	alert.accept();
-
-	Thread.sleep(5000);
-
+    logg.info("Application Revoked Successfully");
+	Thread.sleep(3000);
 
 
 }

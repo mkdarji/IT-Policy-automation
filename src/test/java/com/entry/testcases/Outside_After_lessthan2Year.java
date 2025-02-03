@@ -19,6 +19,8 @@ public class Outside_After_lessthan2Year extends Baseclass{
 	@Test(priority = 1)
 	public void sc1() throws Exception {
 		
+		logg.info("----------Outside Gujarat Date Current date to commercial operation is less than 2 year: Unit Type(Existing Outside Gujarat) scenario 1-------------");
+		
 		driver.get(url);	
 		Index1 i = new Index1(driver);
 		driver.get("https://testdit.gujarat.gov.in:8443/dstmain/itpolicy/add_application");
@@ -49,9 +51,9 @@ public class Outside_After_lessthan2Year extends Baseclass{
 		    Thread.sleep(5000);
 		    String ver = i.vrfunit();
 		    Assert.assertEquals(ver, "IT/ITeS New Unit - Existing Unit Outside Gujarat starting new operation in Gujarat", "Verify results");
-		    System.out.println("Test Case 1 Passed: Unit verification successful.");
+		    logg.info("Unit Verification Successfully: {}", ver);
 		} catch (AssertionError e) {
-		    System.out.println("Test Case 1 Failed: " + e.getMessage());
+			 System.out.println("Unit Verification Failed: " + e.getMessage());
 		}
 
 		try {
@@ -62,8 +64,9 @@ public class Outside_After_lessthan2Year extends Baseclass{
 		    String ver1 = i.vrfval();
 		    Assert.assertEquals(ver1, "Currently you are not eligible for Incentive Application as your employee count is less than 33.", "Verify scenario");
 		    System.out.println("Test Case 2 Passed: Eligibility message verification successful.");
+		    logg.info("Eligibility Error message for (Employee count is not equal to 33): {}", ver1);
 		} catch (AssertionError e) {
-		    System.out.println("Test Case 2 Failed: " + e.getMessage());
+			 System.out.println("Verification Failed: " + e.getMessage());
 		}
 
 		Thread.sleep(5000);
@@ -73,6 +76,7 @@ public class Outside_After_lessthan2Year extends Baseclass{
 	
 	@Test(priority = 2)
     public void sc2() throws Exception {
+		logg.info("----------Outside Gujarat Date Current date to commercial operation is less than 2 year: Unit Type(Existing Outside Gujarat) scenario 1-------------");
 		
 		driver.get(url);	
 		Index1 i = new Index1(driver);
@@ -125,6 +129,7 @@ public class Outside_After_lessthan2Year extends Baseclass{
 
    @Test(priority = 3)
    public void sc3() throws Exception {
+	   logg.info("----------Outside Gujarat Date Current date to commercial operation is less than 2 year: Unit Type(Existing Outside Gujarat) scenario 1-------------");
 	
 	driver.get(url);	
 	Index1 i = new Index1(driver);
@@ -189,6 +194,8 @@ public class Outside_After_lessthan2Year extends Baseclass{
 
     @Test(priority = 4)
     public void sc4() throws Exception {
+    	
+    	logg.info("----------Outside Gujarat Date Current date to commercial operation is less than 2 year: Unit Type(Existing Outside Gujarat) scenario 1-------------");
 	
 	driver.get(url);	
 	Index1 i = new Index1(driver);
@@ -243,6 +250,8 @@ public class Outside_After_lessthan2Year extends Baseclass{
    @Test(priority = 5)
 
    public void sc5() throws Exception {
+	   
+	   logg.info("----------Outside Gujarat Date Current date to commercial operation is less than 2 year: Unit Type(Existing Outside Gujarat) scenario 1-------------");
 	
 	driver.get(url);	
 	Index1 i = new Index1(driver);
@@ -297,6 +306,8 @@ public class Outside_After_lessthan2Year extends Baseclass{
     @Test(priority = 6)
 
     public void sc6() throws Exception {
+    	
+    	logg.info("----------Outside Gujarat Date Current date to commercial operation is less than 2 year: Unit Type(Existing Outside Gujarat) scenario 1-------------");
 	
 	driver.get(url);	
 	Index1 i = new Index1(driver);
