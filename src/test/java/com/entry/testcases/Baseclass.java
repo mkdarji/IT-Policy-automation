@@ -49,7 +49,7 @@ readconfig read = new readconfig();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20)); 
 		
-		logg = LogManager.getLogger("IT-Policy-automation");
+		logg = LogManager.getLogger("Validation_DemoPOM");
 	}
 	
 	
