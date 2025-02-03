@@ -205,3 +205,26 @@
 [INFO ] 2025-02-03 17:45:36.458 [main] IT-Policy-automation - Unit Verification Successfully: IT/ITeS New Unit - Existing Unit Outside Gujarat starting new operation in Gujarat
 [INFO ] 2025-02-03 17:45:50.689 [main] IT-Policy-automation - Eligibility Error message for (Employee count is not equal to 33): Currently you are not eligible for Incentive Application as your employee count is less than 33.
 [INFO ] 2025-02-03 17:45:55.703 [main] IT-Policy-automation - ----------Outside Gujarat Date Current date to commercial operation is less than 2 year: Unit Type(Existing Outside Gujarat) scenario 1-------------
+[INFO ] 2025-02-03 21:48:00.109 [main] Validation_DemoPOM - ----------Outside Gujarat Date Before Policy Period  Unit Type(Expansion) scenario 1-------------
+[INFO ] 2025-02-03 23:34:25.310 [main] Validation_DemoPOM - ----------Outside Gujarat Date Before Policy Period  Unit Type(Expansion) scenario 1-------------
+[INFO ] 2025-02-03 23:34:35.229 [main] Validation_DemoPOM - Selected Project Type
+[INFO ] 2025-02-03 23:34:35.756 [main] Validation_DemoPOM - Click on Next
+[INFO ] 2025-02-03 23:34:36.776 [main] Validation_DemoPOM - select - yes
+[INFO ] 2025-02-03 23:34:36.905 [main] Validation_DemoPOM - PAN Entered
+[INFO ] 2025-02-03 23:34:49.498 [main] Validation_DemoPOM - Incorporation date enter successfully
+[INFO ] 2025-02-03 23:35:01.672 [main] Validation_DemoPOM - Settingup date enter successfully
+[INFO ] 2025-02-03 23:35:03.797 [main] Validation_DemoPOM - Select Deeptech - Yes
+[INFO ] 2025-02-03 23:35:06.913 [main] Validation_DemoPOM - Commercial Operation Started - Yes
+[INFO ] 2025-02-03 23:35:20.019 [main] Validation_DemoPOM - Commercial date enter successfully
+[INFO ] 2025-02-03 23:35:22.115 [main] Validation_DemoPOM -  EMP Count Entered
+[INFO ] 2025-02-03 23:35:22.197 [main] Validation_DemoPOM - Selected Expansion Year
+[INFO ] 2025-02-03 23:35:25.285 [main] Validation_DemoPOM - Selected Expansion Month
+[INFO ] 2025-02-03 23:35:30.376 [main] Validation_DemoPOM - Laptop Count Entered 
+[INFO ] 2025-02-03 23:35:30.551 [main] Validation_DemoPOM - Click on Eligibility
+[INFO ] 2025-02-03 23:35:35.611 [main] Validation_DemoPOM - Unit Verification Successfully: IT/ITeS Expansion Unit
+[INFO ] 2025-02-03 23:35:51.922 [main] Validation_DemoPOM - Eligibility Error message for (Expansion Month-Year and Commercial date not completed 1 year): You are not eligible for the policy as of now, as your Commercial operation started less than a year ago. You may try again later once your Commercial operation date is at least 12 months old from the date of Expansion
+[INFO ] 2025-02-03 23:35:54.935 [main] Validation_DemoPOM - ----------Outside Gujarat Before Policy Period Date Unit(Expansion) scenario 2-------------
+[INFO ] 2025-02-03 23:36:00.883 [main] Validation_DemoPOM - Selected Project Type
+[INFO ] 2025-02-03 23:36:02.169 [main] Validation_DemoPOM - Click on Next
+[INFO ] 2025-02-03 23:36:02.292 [main] Validation_DemoPOM - select - yes
+[INFO ] 2025-02-03 23:36:02.392 [main] Validation_DemoPOM - PAN Entered
