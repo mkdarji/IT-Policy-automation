@@ -228,3 +228,26 @@
 [INFO ] 2025-02-03 23:36:02.169 [main] Validation_DemoPOM - Click on Next
 [INFO ] 2025-02-03 23:36:02.292 [main] Validation_DemoPOM - select - yes
 [INFO ] 2025-02-03 23:36:02.392 [main] Validation_DemoPOM - PAN Entered
+[INFO ] 2025-02-04 14:55:18.884 [main] Validation_DemoPOM - ----------Outside Gujarat Date Before Policy Period  Unit Type(Expansion) scenario 1-------------
+[INFO ] 2025-02-04 14:55:23.565 [main] Validation_DemoPOM - Selected Project Type
+[INFO ] 2025-02-04 14:55:24.191 [main] Validation_DemoPOM - Click on Next
+[INFO ] 2025-02-04 14:55:24.291 [main] Validation_DemoPOM - select - yes
+[INFO ] 2025-02-04 14:55:24.392 [main] Validation_DemoPOM - PAN Entered
+[INFO ] 2025-02-04 14:55:35.226 [main] Validation_DemoPOM - Incorporation date enter successfully
+[INFO ] 2025-02-04 14:55:45.201 [main] Validation_DemoPOM - Settingup date enter successfully
+[INFO ] 2025-02-04 14:55:47.270 [main] Validation_DemoPOM - Select Deeptech - Yes
+[INFO ] 2025-02-04 14:55:50.324 [main] Validation_DemoPOM - Commercial Operation Started - Yes
+[INFO ] 2025-02-04 14:56:01.650 [main] Validation_DemoPOM - Commercial date enter successfully
+[INFO ] 2025-02-04 14:56:03.707 [main] Validation_DemoPOM -  EMP Count Entered
+[INFO ] 2025-02-04 14:56:03.743 [main] Validation_DemoPOM - Selected Expansion Year
+[INFO ] 2025-02-04 14:56:06.815 [main] Validation_DemoPOM - Selected Expansion Month
+[INFO ] 2025-02-04 14:56:11.886 [main] Validation_DemoPOM - Laptop Count Entered 
+[INFO ] 2025-02-04 14:56:12.016 [main] Validation_DemoPOM - Click on Eligibility
+[INFO ] 2025-02-04 14:56:17.043 [main] Validation_DemoPOM - Unit Verification Successfully: IT/ITeS Expansion Unit
+[INFO ] 2025-02-04 14:56:30.852 [main] Validation_DemoPOM - Eligibility Error message for (Expansion Month-Year and Commercial date not completed 1 year): You are not eligible for the policy as of now, as your Commercial operation started less than a year ago. You may try again later once your Commercial operation date is at least 12 months old from the date of Expansion
+[INFO ] 2025-02-04 14:56:33.877 [main] Validation_DemoPOM - ----------Outside Gujarat Before Policy Period Date Unit(Expansion) scenario 2-------------
+[INFO ] 2025-02-04 14:56:39.156 [main] Validation_DemoPOM - Selected Project Type
+[INFO ] 2025-02-04 14:56:39.726 [main] Validation_DemoPOM - Click on Next
+[INFO ] 2025-02-04 14:56:39.785 [main] Validation_DemoPOM - select - yes
+[INFO ] 2025-02-04 14:56:39.835 [main] Validation_DemoPOM - PAN Entered
+[INFO ] 2025-02-04 14:56:50.247 [main] Validation_DemoPOM - Incorporation date enter successfully
