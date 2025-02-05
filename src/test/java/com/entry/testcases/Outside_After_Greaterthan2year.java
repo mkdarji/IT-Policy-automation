@@ -43,7 +43,7 @@ public class Outside_After_Greaterthan2year extends Baseclass{
 		    Thread.sleep(5000);
 		    String ver = i.vrfunit();
 		    Assert.assertEquals(ver, "IT/ITeS New Unit - Existing Unit Outside Gujarat starting new operation in Gujarat", "Verify results");
-		    System.out.println("Test Case 1 Passed: Unit verification successful.");
+		    logg.info("Unit Verification Successfully: {}", ver);
 		} catch (AssertionError e) {
 		    System.out.println("Test Case 1 Failed: " + e.getMessage());
 		}
@@ -95,7 +95,7 @@ public class Outside_After_Greaterthan2year extends Baseclass{
 		    Thread.sleep(5000);
 		    String ver = i.vrfunit();
 		    Assert.assertEquals(ver, "IT/ITeS New Unit - Existing Unit Outside Gujarat starting new operation in Gujarat", "Verify results");
-		    System.out.println("Test Case 1 Passed: Unit verification successful.");
+		    logg.info("Unit Verification Successfully: {}", ver);
 		} catch (AssertionError e) {
 		    System.out.println("Test Case 1 Failed: " + e.getMessage());
 		}
@@ -149,7 +149,7 @@ public class Outside_After_Greaterthan2year extends Baseclass{
 	    Thread.sleep(5000);
 	    String ver = i.vrfunit();
 	    Assert.assertEquals(ver, "IT/ITeS New Unit - Existing Unit Outside Gujarat starting new operation in Gujarat", "Verify results");
-	    System.out.println("Test Case 1 Passed: Unit verification successful.");
+	    logg.info("Unit Verification Successfully: {}", ver);
 	} catch (AssertionError e) {
 	    System.out.println("Test Case 1 Failed: " + e.getMessage());
 	}
@@ -214,7 +214,7 @@ public class Outside_After_Greaterthan2year extends Baseclass{
 	    Thread.sleep(5000);
 	    String ver = i.vrfunit();
 	    Assert.assertEquals(ver, "IT/ITeS New Unit - Existing Unit Outside Gujarat starting new operation in Gujarat", "Verify results");
-	    System.out.println("Test Case 1 Passed: Unit verification successful.");
+	    logg.info("Unit Verification Successfully: {}", ver);
 	} catch (AssertionError e) {
 	    System.out.println("Test Case 1 Failed: " + e.getMessage());
 	}
@@ -269,7 +269,7 @@ public class Outside_After_Greaterthan2year extends Baseclass{
 	    Thread.sleep(5000);
 	    String ver = i.vrfunit();
 	    Assert.assertEquals(ver, "IT/ITeS New Unit - Existing Unit Outside Gujarat starting new operation in Gujarat", "Verify results");
-	    System.out.println("Test Case 1 Passed: Unit verification successful.");
+	    logg.info("Unit Verification Successfully: {}", ver);
 	} catch (AssertionError e) {
 	    System.out.println("Test Case 1 Failed: " + e.getMessage());
 	}
@@ -324,7 +324,7 @@ public class Outside_After_Greaterthan2year extends Baseclass{
 	    Thread.sleep(5000);
 	    String ver = i.vrfunit();
 	    Assert.assertEquals(ver, "IT/ITeS New Unit - Existing Unit Outside Gujarat starting new operation in Gujarat", "Verify results");
-	    System.out.println("Test Case 1 Passed: Unit verification successful.");
+	    logg.info("Unit Verification Successfully: {}", ver);
 	} catch (AssertionError e) {
 	    System.out.println("Test Case 1 Failed: " + e.getMessage());
 	}
@@ -395,7 +395,7 @@ public class Outside_After_Greaterthan2year extends Baseclass{
 		    Thread.sleep(5000);
 		    String ver = i.vrfunit();
 		    Assert.assertEquals(ver, "IT/ITeS Expansion Unit", "Verify results");
-		    System.out.println("Test Case 1 Passed: Unit verification successful.");
+		    logg.info("Unit Verification Successfully: {}", ver);
 		} catch (AssertionError e) {
 		    System.out.println("Test Case 1 Failed: " + e.getMessage());
 		}
@@ -452,7 +452,7 @@ public class Outside_After_Greaterthan2year extends Baseclass{
 		    Thread.sleep(5000);
 		    String ver = i.vrfunit();
 		    Assert.assertEquals(ver, "IT/ITeS Expansion Unit", "Verify results");
-		    System.out.println("Test Case 1 Passed: Unit verification successful.");
+		    logg.info("Unit Verification Successfully: {}", ver);
 		} catch (AssertionError e) {
 		    System.out.println("Test Case 1 Failed: " + e.getMessage());
 		}
@@ -509,7 +509,7 @@ public class Outside_After_Greaterthan2year extends Baseclass{
 	    Thread.sleep(5000);
 	    String ver = i.vrfunit();
 	    Assert.assertEquals(ver, "IT/ITeS Expansion Unit", "Verify results");
-	    System.out.println("Test Case 1 Passed: Unit verification successful.");
+	    logg.info("Unit Verification Successfully: {}", ver);
 	} catch (AssertionError e) {
 	    System.out.println("Test Case 1 Failed: " + e.getMessage());
 	}
@@ -584,7 +584,7 @@ public class Outside_After_Greaterthan2year extends Baseclass{
 	    Thread.sleep(5000);
 	    String ver = i.vrfunit();
 	    Assert.assertEquals(ver, "IT/ITeS Expansion Unit", "Verify results");
-	    System.out.println("Test Case 1 Passed: Unit verification successful.");
+	    logg.info("Unit Verification Successfully: {}", ver);
 	} catch (AssertionError e) {
 	    System.out.println("Test Case 1 Failed: " + e.getMessage());
 	}
