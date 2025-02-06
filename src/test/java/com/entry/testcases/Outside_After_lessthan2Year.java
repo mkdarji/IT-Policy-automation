@@ -61,7 +61,7 @@ public class Outside_After_lessthan2Year extends Baseclass{
 		    Assert.assertEquals(ver1, "Currently you are not eligible for Incentive Application as your employee count is less than 33.", "Verify scenario");
 		    logg.info("Eligibility Error message for (Employee count is not equal to 33): {}", ver1);
 		} catch (AssertionError e) {
-			 System.out.println("Verification Failed: " + e.getMessage());
+			 System.out.println("Error Message Verification Failed: " + e.getMessage());
 		}
 
 		Thread.sleep(5000);
@@ -101,7 +101,7 @@ public class Outside_After_lessthan2Year extends Baseclass{
 		    Assert.assertEquals(ver, "IT/ITeS New Unit - Existing Unit Outside Gujarat starting new operation in Gujarat", "Verify results");
 		    logg.info("Unit Verification Successfully: {}", ver);
 		} catch (AssertionError e) {
-		    System.out.println("Test Case 1 Failed: " + e.getMessage());
+		    System.out.println("Unit Verification Failed: " + e.getMessage());
 		}
 
 		try {
@@ -113,7 +113,7 @@ public class Outside_After_lessthan2Year extends Baseclass{
 		    Assert.assertEquals(ver1, "According to para 2.5.11 of G.R. No: ITP/10/2021/583612/IT a workstation, laptop, or any IT device must be allocated to at least 80% of the total employees.", "Verify scenario");
 		    logg.info("Eligibility Error message for (Employee count and Laptop count not 80 %): {}", ver1);
 		} catch (AssertionError e) {
-		    System.out.println("Test Case 2 Failed: " + e.getMessage());
+		    System.out.println("Error Message Verification Failed: " + e.getMessage());
 		}
 
         
@@ -155,7 +155,7 @@ public class Outside_After_lessthan2Year extends Baseclass{
 	    Assert.assertEquals(ver, "IT/ITeS New Unit - Existing Unit Outside Gujarat starting new operation in Gujarat", "Verify results");
 	    logg.info("Unit Verification Successfully: {}", ver);
 	} catch (AssertionError e) {
-	    System.out.println("Test Case 1 Failed: " + e.getMessage());
+	    System.out.println("Unit Verification Failed: " + e.getMessage());
 	}
 
 	try {
@@ -233,7 +233,7 @@ public class Outside_After_lessthan2Year extends Baseclass{
 	    Assert.assertEquals(ver1, "Currently you are not eligible for Incentive Application as your employee count is less than 50.", "Verify scenario");
 	    logg.info("Eligibility Error message for (Employee count is not equal to 50): {}", ver1);
 	} catch (AssertionError e) {
-		 System.out.println("Verification Failed: " + e.getMessage());
+		 System.out.println("Error Message Verification Failed: " + e.getMessage());
 	}
 
 	Thread.sleep(5000);
@@ -276,7 +276,7 @@ public class Outside_After_lessthan2Year extends Baseclass{
 	    Assert.assertEquals(ver, "IT/ITeS New Unit - Existing Unit Outside Gujarat starting new operation in Gujarat", "Verify results");
 	    logg.info("Unit Verification Successfully: {}", ver);
 	} catch (AssertionError e) {
-	    System.out.println("Test Case 1 Failed: " + e.getMessage());
+	    System.out.println("Unit Verification Failed: " + e.getMessage());
 	}
 
 	try {
@@ -288,7 +288,7 @@ public class Outside_After_lessthan2Year extends Baseclass{
 	    Assert.assertEquals(ver1, "According to para 2.5.11 of G.R. No: ITP/10/2021/583612/IT a workstation, laptop, or any IT device must be allocated to at least 80% of the total employees.", "Verify scenario");
 	    logg.info("Eligibility Error message for (Employee count and Laptop count not 80 %): {}", ver1);
 	} catch (AssertionError e) {
-	    System.out.println("Test Case 2 Failed: " + e.getMessage());
+	    System.out.println("Error Message Verification Failed: " + e.getMessage());
 	}
  
 
@@ -331,7 +331,7 @@ public class Outside_After_lessthan2Year extends Baseclass{
 	    Assert.assertEquals(ver, "IT/ITeS New Unit - Existing Unit Outside Gujarat starting new operation in Gujarat", "Verify results");
 	    logg.info("Unit Verification Successfully: {}", ver);
 	} catch (AssertionError e) {
-	    System.out.println("Test Case 1 Failed: " + e.getMessage());
+	    System.out.println("Unit Verification Failed: " + e.getMessage());
 	}
 
 	try {
@@ -357,7 +357,7 @@ public class Outside_After_lessthan2Year extends Baseclass{
 	// Now handle the alert
 	Alert alert = driver.switchTo().alert();
 	alert.accept();
-
+	logg.info("Application Revoked Successfully");
 	Thread.sleep(5000);
 
 }

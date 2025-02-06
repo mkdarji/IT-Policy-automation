@@ -46,9 +46,9 @@ public class Newunit_Alldate_before_Expansion extends Baseclass{
 			    Thread.sleep(5000);
 			    String ver = i.vrfunit();
 			    Assert.assertEquals(ver, "IT/ITeS Expansion Unit", "Verify results");
-			    System.out.println("Test Case 1 Passed: Unit verification successful.");
+			    logg.info("Unit Verification Successfully: {}", ver);
 			} catch (AssertionError e) {
-			    System.out.println("Test Case 1 Failed: " + e.getMessage());
+			    System.out.println("Unit Verification Failed: " + e.getMessage());
 			}
 
 			try {
@@ -58,12 +58,13 @@ public class Newunit_Alldate_before_Expansion extends Baseclass{
 			    
 			    String ver1 = i.vrfval();
 			    Assert.assertEquals(ver1, "You are not eligible for the policy as of now, as your Commercial operation started less than a year ago. You may try again later once your Commercial operation date is at least 12 months old from the date of Expansion", "Verify scenario");
-			    System.out.println("Test Case 2 Passed: Eligibility message verification successful.");
+			    logg.info("Eligibility Error message for (Expansion Month-Year and Commercial date not completed 1 year): {}", ver1);
+			  
 			} catch (AssertionError e) {
-			    System.out.println("Test Case 2 Failed: " + e.getMessage());
+			    System.out.println("Error Message Verification Failed: " + e.getMessage());
 			}
 
-			Thread.sleep(5000);
+			Thread.sleep(3000);
 
 		}
 		
@@ -101,9 +102,9 @@ public class Newunit_Alldate_before_Expansion extends Baseclass{
 			    Thread.sleep(5000);
 			    String ver = i.vrfunit();
 			    Assert.assertEquals(ver, "IT/ITeS Expansion Unit", "Verify results");
-			    System.out.println("Test Case 1 Passed: Unit verification successful.");
+			    logg.info("Unit Verification Successfully: {}", ver);
 			} catch (AssertionError e) {
-			    System.out.println("Test Case 1 Failed: " + e.getMessage());
+			    System.out.println("Unit Verification Failed: " + e.getMessage());
 			}
 
 			try {
@@ -113,12 +114,14 @@ public class Newunit_Alldate_before_Expansion extends Baseclass{
 			    
 			    String ver1 = i.vrfval();
 			    Assert.assertEquals(ver1, "You are not eligible for the policy as of now, as your Commercial operation started less than a year ago. You may try again later once your Commercial operation date is at least 12 months old from the date of Expansion", "Verify scenario");
-			    System.out.println("Test Case 2 Passed: Eligibility message verification successful.");
+			    logg.info("Eligibility Error message for (Expansion Month-Year and Commercial date not completed 1 year): {}", ver1);
+			  
 			} catch (AssertionError e) {
-			    System.out.println("Test Case 2 Failed: " + e.getMessage());
+			    System.out.println("Error Message Verification Failed: " + e.getMessage());
 			}
 
-			Thread.sleep(5000);
+			Thread.sleep(3000);
+
 
 		}
 
@@ -156,9 +159,9 @@ public class Newunit_Alldate_before_Expansion extends Baseclass{
 		    Thread.sleep(5000);
 		    String ver = i.vrfunit();
 		    Assert.assertEquals(ver, "IT/ITeS Expansion Unit", "Verify results");
-		    System.out.println("Test Case 1 Passed: Unit verification successful.");
+		    logg.info("Unit Verification Successfully: {}", ver);
 		} catch (AssertionError e) {
-		    System.out.println("Test Case 1 Failed: " + e.getMessage());
+			System.out.println("Unit Verification Failed: " + e.getMessage());
 		}
 
 		try {
@@ -168,9 +171,9 @@ public class Newunit_Alldate_before_Expansion extends Baseclass{
 		    
 		    String ver1 = i.vrfsuceesunit();
 		    Assert.assertEquals(ver1, "IT/ITeS Expansion Unit", "Verify scenario");
-		    System.out.println("Test Case 2 Passed: Application Created successful.");
+		    logg.info("Application Created Successfully: {}", ver1);
 		} catch (AssertionError e) {
-		    System.out.println("Test Case 2 Failed: " + e.getMessage());
+			System.out.println("Application Creation Failed: " + e.getMessage());
 		}
 
 
@@ -187,8 +190,8 @@ public class Newunit_Alldate_before_Expansion extends Baseclass{
 		// Now handle the alert
 		Alert alert = driver.switchTo().alert();
 		alert.accept();
-
-		Thread.sleep(5000);
+	    logg.info("Application Revoked Successfully");
+		Thread.sleep(3000);
 
 
 	}
@@ -228,9 +231,9 @@ public class Newunit_Alldate_before_Expansion extends Baseclass{
 		    Thread.sleep(5000);
 		    String ver = i.vrfunit();
 		    Assert.assertEquals(ver, "IT/ITeS Expansion Unit", "Verify results");
-		    System.out.println("Test Case 1 Passed: Unit verification successful.");
+		    logg.info("Unit Verification Successfully: {}", ver);
 		} catch (AssertionError e) {
-		    System.out.println("Test Case 1 Failed: " + e.getMessage());
+			System.out.println("Unit Verification Failed: " + e.getMessage());
 		}
 
 		try {
@@ -240,9 +243,9 @@ public class Newunit_Alldate_before_Expansion extends Baseclass{
 		    
 		    String ver1 = i.vrfsuceesunit();
 		    Assert.assertEquals(ver1, "IT/ITeS Expansion Unit", "Verify scenario");
-		    System.out.println("Test Case 2 Passed: Application Created successful.");
+		    logg.info("Application Created Successfully: {}", ver1);
 		} catch (AssertionError e) {
-		    System.out.println("Test Case 2 Failed: " + e.getMessage());
+			System.out.println("Application Creation Failed: " + e.getMessage());
 		}
 
 
@@ -259,8 +262,9 @@ public class Newunit_Alldate_before_Expansion extends Baseclass{
 		// Now handle the alert
 		Alert alert = driver.switchTo().alert();
 		alert.accept();
+	    logg.info("Application Revoked Successfully");
+		Thread.sleep(3000);
 
-		Thread.sleep(5000);
 
 
 

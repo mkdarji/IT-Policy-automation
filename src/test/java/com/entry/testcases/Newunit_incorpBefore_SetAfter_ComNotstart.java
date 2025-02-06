@@ -18,10 +18,6 @@ public class Newunit_incorpBefore_SetAfter_ComNotstart extends Baseclass{
 		driver.get(url);	
 		Index1 i = new Index1(driver);
 		driver.get("https://testdit.gujarat.gov.in:8443/dstmain/itpolicy/add_application");
-		/*
-		 * i.clclog(); i.usernm("dst-22@gmail.com"); i.ps("Test@123"); i.cap("20");
-		 * i.loginpolicy();
-		 */
 		
 		i.projecttype();
 		i.next();
@@ -45,9 +41,9 @@ public class Newunit_incorpBefore_SetAfter_ComNotstart extends Baseclass{
 		    Thread.sleep(5000);
 		    String ver = i.vrfunit();
 		    Assert.assertEquals(ver, "IT/ITeS New Unit", "Verify results");
-		    System.out.println("Test Case 1 Passed: Unit verification successful.");
+		    logg.info("Unit Verification Successfully: {}", ver);
 		} catch (AssertionError e) {
-		    System.out.println("Test Case 1 Failed: " + e.getMessage());
+			System.out.println("Unit Verification Failed: " + e.getMessage());
 		}
 
 		try {
@@ -57,9 +53,9 @@ public class Newunit_incorpBefore_SetAfter_ComNotstart extends Baseclass{
 		    
 		    String ver1 = i.vrfval();
 		    Assert.assertEquals(ver1, "Currently you are not eligible for Incentive Application as your employee count is less than 33.", "Verify scenario");
-		    System.out.println("Test Case 2 Passed: Eligibility message verification successful.");
+		    logg.info("Eligibility Error message for (Employee count is not equal to 33): {}", ver1);
 		} catch (AssertionError e) {
-		    System.out.println("Test Case 2 Failed: " + e.getMessage());
+			 System.out.println("Error Message Verification Failed: " + e.getMessage());
 		}
 
 		Thread.sleep(5000);
@@ -96,9 +92,9 @@ public class Newunit_incorpBefore_SetAfter_ComNotstart extends Baseclass{
 		    Thread.sleep(5000);
 		    String ver = i.vrfunit();
 		    Assert.assertEquals(ver, "IT/ITeS New Unit", "Verify results");
-		    System.out.println("Test Case 1 Passed: Unit verification successful.");
+		    logg.info("Unit Verification Successfully: {}", ver);
 		} catch (AssertionError e) {
-		    System.out.println("Test Case 1 Failed: " + e.getMessage());
+			 System.out.println("Unit Verification Failed: " + e.getMessage());
 		}
 
 		try {
@@ -108,14 +104,13 @@ public class Newunit_incorpBefore_SetAfter_ComNotstart extends Baseclass{
 		    
 		    String ver1 = i.vrfval();
 		    Assert.assertEquals(ver1, "According to para 2.5.11 of G.R. No: ITP/10/2021/583612/IT a workstation, laptop, or any IT device must be allocated to at least 80% of the total employees.", "Verify scenario");
-		    System.out.println("Test Case 2 Passed: Eligibility message verification successful.");
+		    logg.info("Eligibility Error message for (Employee count and Laptop count not 80 %): {}", ver1);
 		} catch (AssertionError e) {
-		    System.out.println("Test Case 2 Failed: " + e.getMessage());
+			 System.out.println("Error Message Verification Failed: " + e.getMessage());
 		}
 
-        
-    
 		Thread.sleep(5000);
+
 
 	}
 
@@ -149,9 +144,9 @@ public class Newunit_incorpBefore_SetAfter_ComNotstart extends Baseclass{
 	    Thread.sleep(5000);
 	    String ver = i.vrfunit();
 	    Assert.assertEquals(ver, "IT/ITeS New Unit", "Verify results");
-	    System.out.println("Test Case 1 Passed: Unit verification successful.");
+	    logg.info("Unit Verification Successfully: {}", ver);
 	} catch (AssertionError e) {
-	    System.out.println("Test Case 1 Failed: " + e.getMessage());
+		System.out.println("Unit Verification Failed: " + e.getMessage());
 	}
 
 	try {
@@ -161,9 +156,10 @@ public class Newunit_incorpBefore_SetAfter_ComNotstart extends Baseclass{
 	    
 	    String ver1 = i.vrfsuceesunit();
 	    Assert.assertEquals(ver1, "IT/ITeS New Unit", "Verify scenario");
-	    System.out.println("Test Case 2 Passed: Application Created Successful.");
-	} catch (AssertionError e) {
-	    System.out.println("Test Case 2 Failed: " + e.getMessage());
+	    logg.info("Application Created Successfully: {}", ver1);
+   	} catch (AssertionError e) {
+   		System.out.println("Application Creation Failed: " + e.getMessage());
+
 	}
 
 	Thread.sleep(3000);
@@ -178,8 +174,9 @@ public class Newunit_incorpBefore_SetAfter_ComNotstart extends Baseclass{
 	// Now handle the alert
 	Alert alert = driver.switchTo().alert();
 	alert.accept();
-
+	logg.info("Application Revoked Successfully");
 	Thread.sleep(5000);
+
 
 }
 
@@ -213,9 +210,9 @@ public class Newunit_incorpBefore_SetAfter_ComNotstart extends Baseclass{
 	    Thread.sleep(5000);
 	    String ver = i.vrfunit();
 	    Assert.assertEquals(ver, "IT/ITeS New Unit", "Verify results");
-	    System.out.println("Test Case 1 Passed: Unit verification successful.");
+	    logg.info("Unit Verification Successfully: {}", ver);
 	} catch (AssertionError e) {
-	    System.out.println("Test Case 1 Failed: " + e.getMessage());
+		 System.out.println("Unit Verification Failed: " + e.getMessage());
 	}
 
 	try {
@@ -225,13 +222,14 @@ public class Newunit_incorpBefore_SetAfter_ComNotstart extends Baseclass{
 	    
 	    String ver1 = i.vrfval();
 	    Assert.assertEquals(ver1, "Currently you are not eligible for Incentive Application as your employee count is less than 50.", "Verify scenario");
-	    System.out.println("Test Case 2 Passed: Eligibility message verification successful.");
+	    logg.info("Eligibility Error message for (Employee count is not equal to 50): {}", ver1);
 	} catch (AssertionError e) {
-	    System.out.println("Test Case 2 Failed: " + e.getMessage());
+		 System.out.println("Error Message Verification Failed: " + e.getMessage());
 	}
 
 	
 	Thread.sleep(5000);
+
 
 }
 
@@ -267,9 +265,9 @@ public class Newunit_incorpBefore_SetAfter_ComNotstart extends Baseclass{
 	    Thread.sleep(5000);
 	    String ver = i.vrfunit();
 	    Assert.assertEquals(ver, "IT/ITeS New Unit", "Verify results");
-	    System.out.println("Test Case 1 Passed: Unit verification successful.");
+	    logg.info("Unit Verification Successfully: {}", ver);
 	} catch (AssertionError e) {
-	    System.out.println("Test Case 1 Failed: " + e.getMessage());
+	    System.out.println("Unit Verification Failed: " + e.getMessage());
 	}
 
 	try {
@@ -279,9 +277,9 @@ public class Newunit_incorpBefore_SetAfter_ComNotstart extends Baseclass{
 	    
 	    String ver1 = i.vrfval();
 	    Assert.assertEquals(ver1, "According to para 2.5.11 of G.R. No: ITP/10/2021/583612/IT a workstation, laptop, or any IT device must be allocated to at least 80% of the total employees.", "Verify scenario");
-	    System.out.println("Test Case 2 Passed: Eligibility message verification successful.");
-	} catch (AssertionError e) {
-	    System.out.println("Test Case 2 Failed: " + e.getMessage());
+	    logg.info("Eligibility Error message for (Employee count and Laptop count not 80 %): {}", ver1);
+	   	} catch (AssertionError e) {
+	   	    System.out.println("Error Message Verification Failed: " + e.getMessage());
 	}
 
 	
@@ -319,14 +317,24 @@ public class Newunit_incorpBefore_SetAfter_ComNotstart extends Baseclass{
 	
 	try {
 	    Thread.sleep(5000);
+	    String ver = i.vrfunit();
+	    Assert.assertEquals(ver, "IT/ITeS New Unit", "Verify results");
+	    logg.info("Unit Verification Successfully: {}", ver);
+	} catch (AssertionError e) {
+	    System.out.println("Unit Verification Failed: " + e.getMessage());
+	}
+	
+	try {
+	    Thread.sleep(5000);
 	    i.cnt();
 	    Thread.sleep(5000);
 	    
 	    String ver1 = i.vrfsuceesunit();
 	    Assert.assertEquals(ver1, "IT/ITeS New Unit", "Verify scenario");
-	    System.out.println("Test Case 2 Passed: Application Created Successful.");
-	} catch (AssertionError e) {
-	    System.out.println("Test Case 2 Failed: " + e.getMessage());
+	    logg.info("Application Created Successfully: {}", ver1);
+   	} catch (AssertionError e) {
+   		System.out.println("Application Creation Failed: " + e.getMessage());
+
 	}
 
 	Thread.sleep(3000);
@@ -341,7 +349,7 @@ public class Newunit_incorpBefore_SetAfter_ComNotstart extends Baseclass{
 	// Now handle the alert
 	Alert alert = driver.switchTo().alert();
 	alert.accept();
-
+	logg.info("Application Revoked Successfully");
 	Thread.sleep(5000);
     }
 }

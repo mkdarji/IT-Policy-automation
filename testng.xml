@@ -8,7 +8,7 @@
     <classes>
     
     <class name="com.entry.testcases.Outside_Expansion_Before"/>
-    <class name="com.entry.testcases.Outside_After_lessthan2Year"/>
+   <class name="com.entry.testcases.Outside_After_lessthan2Year"/>
     <class name="com.entry.testcases.Outside_After_Greaterthan2year"/>
     <class name="com.entry.testcases.Outside_After_ComopNotStart"/>
     <class name="com.entry.testcases.Incorp_After_Com_NotStarted"/>

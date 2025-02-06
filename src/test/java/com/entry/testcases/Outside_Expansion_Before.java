@@ -80,7 +80,7 @@ public class Outside_Expansion_Before extends Baseclass{
 		    logg.info("Eligibility Error message for (Expansion Month-Year and Commercial date not completed 1 year): {}", ver1);
 		  
 		} catch (AssertionError e) {
-		    System.out.println("Verification Failed: " + e.getMessage());
+		    System.out.println("Error Message Verification Failed: " + e.getMessage());
 		}
 
 		Thread.sleep(3000);
@@ -145,7 +145,7 @@ public class Outside_Expansion_Before extends Baseclass{
 		    logg.info("Eligibility Error message for (Expansion Month-Year and Commercial date not completed 1 year): {}", ver1);
 		  
 		} catch (AssertionError e) {
-		    System.out.println("Verification Failed: " + e.getMessage());
+		    System.out.println("Error Message Verification Failed: " + e.getMessage());
 		}
 
 		Thread.sleep(3000);

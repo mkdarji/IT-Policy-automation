@@ -45,7 +45,7 @@ public class Outside_After_Greaterthan2year extends Baseclass{
 		    Assert.assertEquals(ver, "IT/ITeS New Unit - Existing Unit Outside Gujarat starting new operation in Gujarat", "Verify results");
 		    logg.info("Unit Verification Successfully: {}", ver);
 		} catch (AssertionError e) {
-		    System.out.println("Test Case 1 Failed: " + e.getMessage());
+		    System.out.println("Unit Verification Failed: " + e.getMessage());
 		}
 
 		try {
@@ -55,9 +55,9 @@ public class Outside_After_Greaterthan2year extends Baseclass{
 		    
 		    String ver1 = i.vrfval();
 		    Assert.assertEquals(ver1, "Currently you are not eligible for Incentive Application as your employee count is less than 33.", "Verify scenario");
-		    System.out.println("Test Case 2 Passed: Eligibility message verification successful.");
+		    logg.info("Eligibility Error message for (Employee count is not equal to 33): {}", ver1);
 		} catch (AssertionError e) {
-		    System.out.println("Test Case 2 Failed: " + e.getMessage());
+		    System.out.println("Error Message Verification Failed: " + e.getMessage());
 		}
 
 		Thread.sleep(5000);
@@ -97,7 +97,7 @@ public class Outside_After_Greaterthan2year extends Baseclass{
 		    Assert.assertEquals(ver, "IT/ITeS New Unit - Existing Unit Outside Gujarat starting new operation in Gujarat", "Verify results");
 		    logg.info("Unit Verification Successfully: {}", ver);
 		} catch (AssertionError e) {
-		    System.out.println("Test Case 1 Failed: " + e.getMessage());
+		    System.out.println("Unit Verification Failed: " + e.getMessage());
 		}
 
 		try {
@@ -107,9 +107,9 @@ public class Outside_After_Greaterthan2year extends Baseclass{
 		    
 		    String ver1 = i.vrfval();
 		    Assert.assertEquals(ver1, "According to para 2.5.11 of G.R. No: ITP/10/2021/583612/IT a workstation, laptop, or any IT device must be allocated to at least 80% of the total employees.", "Verify scenario");
-		    System.out.println("Test Case 2 Passed: Eligibility message verification successful.");
+		    logg.info("Eligibility Error message for (Employee count and Laptop count not 80 %): {}", ver1);
 		} catch (AssertionError e) {
-		    System.out.println("Test Case 2 Failed: " + e.getMessage());
+		    System.out.println("Error Message Verification Failed: " + e.getMessage());
 		}
 
         
@@ -151,7 +151,7 @@ public class Outside_After_Greaterthan2year extends Baseclass{
 	    Assert.assertEquals(ver, "IT/ITeS New Unit - Existing Unit Outside Gujarat starting new operation in Gujarat", "Verify results");
 	    logg.info("Unit Verification Successfully: {}", ver);
 	} catch (AssertionError e) {
-	    System.out.println("Test Case 1 Failed: " + e.getMessage());
+	    System.out.println("Unit Verification Failed: " + e.getMessage());
 	}
 
 	try {
@@ -161,9 +161,9 @@ public class Outside_After_Greaterthan2year extends Baseclass{
 	    
 	    String ver1 = i.vrfsuceesunit();
 	    Assert.assertEquals(ver1, "IT/ITeS New Unit - Existing Unit Outside Gujarat starting new operation in Gujarat", "Verify scenario");
-	    System.out.println("Test Case 2 Passed: Application Created successful.");
+	    logg.info("Application Created Successfully: {}", ver1);
 	} catch (AssertionError e) {
-	    System.out.println("Test Case 2 Failed: " + e.getMessage());
+	    System.out.println("Application Creation Failed: " + e.getMessage());
 	}
 
 	Thread.sleep(3000);
@@ -178,7 +178,7 @@ public class Outside_After_Greaterthan2year extends Baseclass{
 	// Now handle the alert
 	Alert alert = driver.switchTo().alert();
 	alert.accept();
-
+	logg.info("Application Revoked Successfully");
 	Thread.sleep(5000);
 
 }
@@ -216,7 +216,7 @@ public class Outside_After_Greaterthan2year extends Baseclass{
 	    Assert.assertEquals(ver, "IT/ITeS New Unit - Existing Unit Outside Gujarat starting new operation in Gujarat", "Verify results");
 	    logg.info("Unit Verification Successfully: {}", ver);
 	} catch (AssertionError e) {
-	    System.out.println("Test Case 1 Failed: " + e.getMessage());
+	    System.out.println("Unit Verification Failed: " + e.getMessage());
 	}
 
 	try {
@@ -226,9 +226,9 @@ public class Outside_After_Greaterthan2year extends Baseclass{
 	    
 	    String ver1 = i.vrfval();
 	    Assert.assertEquals(ver1, "Currently you are not eligible for Incentive Application as your employee count is less than 50.", "Verify scenario");
-	    System.out.println("Test Case 2 Passed: Eligibility message verification successful.");
+	    logg.info("Eligibility Error message for (Employee count is not equal to 50): {}", ver1);
 	} catch (AssertionError e) {
-	    System.out.println("Test Case 2 Failed: " + e.getMessage());
+	    System.out.println("Error Message Verification Failed: " + e.getMessage());
 	}
 
 	
@@ -271,7 +271,7 @@ public class Outside_After_Greaterthan2year extends Baseclass{
 	    Assert.assertEquals(ver, "IT/ITeS New Unit - Existing Unit Outside Gujarat starting new operation in Gujarat", "Verify results");
 	    logg.info("Unit Verification Successfully: {}", ver);
 	} catch (AssertionError e) {
-	    System.out.println("Test Case 1 Failed: " + e.getMessage());
+	    System.out.println("Error Message Verification Failed: " + e.getMessage());
 	}
 
 	try {
@@ -281,7 +281,7 @@ public class Outside_After_Greaterthan2year extends Baseclass{
 	    
 	    String ver1 = i.vrfval();
 	    Assert.assertEquals(ver1, "According to para 2.5.11 of G.R. No: ITP/10/2021/583612/IT a workstation, laptop, or any IT device must be allocated to at least 80% of the total employees.", "Verify scenario");
-	    System.out.println("Test Case 2 Passed: Application Created successful.");
+	    logg.info("Eligibility Error message for (Employee count and Laptop count not 80 %): {}", ver1);
 	} catch (AssertionError e) {
 	    System.out.println("Test Case 2 Failed: " + e.getMessage());
 	}
@@ -326,7 +326,7 @@ public class Outside_After_Greaterthan2year extends Baseclass{
 	    Assert.assertEquals(ver, "IT/ITeS New Unit - Existing Unit Outside Gujarat starting new operation in Gujarat", "Verify results");
 	    logg.info("Unit Verification Successfully: {}", ver);
 	} catch (AssertionError e) {
-	    System.out.println("Test Case 1 Failed: " + e.getMessage());
+	    System.out.println("Unit Verification Failed: " + e.getMessage());
 	}
 
 	try {
@@ -336,9 +336,9 @@ public class Outside_After_Greaterthan2year extends Baseclass{
 	    
 	    String ver1 = i.vrfsuceesunit();
 	    Assert.assertEquals(ver1, "Currently you are not eligible for Incentive Application as your employee count is less than 50.", "Verify scenario");
-	    System.out.println("Test Case 2 Passed: Application Created successful.");
+	    logg.info("Application Created Successfully: {}", ver1);
 	} catch (AssertionError e) {
-	    System.out.println("Test Case 2 Failed: " + e.getMessage());
+	    System.out.println("Application Creation Failed: " + e.getMessage());
 	}
 
 	Thread.sleep(3000);
@@ -353,7 +353,7 @@ public class Outside_After_Greaterthan2year extends Baseclass{
 	// Now handle the alert
 	Alert alert = driver.switchTo().alert();
 	alert.accept();
-
+	logg.info("Application Revoked Successfully");
 	Thread.sleep(5000);
 
 }
@@ -397,7 +397,7 @@ public class Outside_After_Greaterthan2year extends Baseclass{
 		    Assert.assertEquals(ver, "IT/ITeS Expansion Unit", "Verify results");
 		    logg.info("Unit Verification Successfully: {}", ver);
 		} catch (AssertionError e) {
-		    System.out.println("Test Case 1 Failed: " + e.getMessage());
+		    System.out.println("Unit Verification Failed: " + e.getMessage());
 		}
 
 		try {
@@ -407,9 +407,9 @@ public class Outside_After_Greaterthan2year extends Baseclass{
 		    
 		    String ver1 = i.vrfval();
 		    Assert.assertEquals(ver1, "You are not eligible for the policy as of now, as your Commercial operation started less than a year ago. You may try again later once your Commercial operation date is at least 12 months old from the date of Expansion", "Verify scenario");
-		    System.out.println("Test Case 2 Passed: Eligibility message verification successful.");
+		    logg.info("Eligibility Error message for (Expansion Month-Year and Commercial date not completed 1 year): {}", ver1);
 		} catch (AssertionError e) {
-		    System.out.println("Test Case 2 Failed: " + e.getMessage());
+		    System.out.println("Error Message Verification Failed: " + e.getMessage());
 		}
 
 		Thread.sleep(5000);
@@ -454,7 +454,7 @@ public class Outside_After_Greaterthan2year extends Baseclass{
 		    Assert.assertEquals(ver, "IT/ITeS Expansion Unit", "Verify results");
 		    logg.info("Unit Verification Successfully: {}", ver);
 		} catch (AssertionError e) {
-		    System.out.println("Test Case 1 Failed: " + e.getMessage());
+		    System.out.println("Error Message Verification Failed: " + e.getMessage());
 		}
 
 		try {
@@ -464,7 +464,7 @@ public class Outside_After_Greaterthan2year extends Baseclass{
 		    
 		    String ver1 = i.vrfval();
 		    Assert.assertEquals(ver1, "You are not eligible for the policy as of now, as your Commercial operation started less than a year ago. You may try again later once your Commercial operation date is at least 12 months old from the date of Expansion", "Verify scenario");
-		    System.out.println("Test Case 2 Passed: Eligibility message verification successful.");
+		    logg.info("Eligibility Error message for (Expansion Month-Year and Commercial date not completed 1 year): {}", ver1);
 		} catch (AssertionError e) {
 		    System.out.println("Test Case 2 Failed: " + e.getMessage());
 		}
@@ -511,7 +511,7 @@ public class Outside_After_Greaterthan2year extends Baseclass{
 	    Assert.assertEquals(ver, "IT/ITeS Expansion Unit", "Verify results");
 	    logg.info("Unit Verification Successfully: {}", ver);
 	} catch (AssertionError e) {
-	    System.out.println("Test Case 1 Failed: " + e.getMessage());
+	    System.out.println("Unit Verification Failed: " + e.getMessage());
 	}
 
 	try {
@@ -521,9 +521,9 @@ public class Outside_After_Greaterthan2year extends Baseclass{
 	    
 	    String ver1 = i.vrfsuceesunit();
 	    Assert.assertEquals(ver1, "IT/ITeS Expansion Unit", "Verify scenario");
-	    System.out.println("Test Case 2 Passed: Application Created successful.");
+	    logg.info("Application Created Successfully: {}", ver1);
 	} catch (AssertionError e) {
-	    System.out.println("Test Case 2 Failed: " + e.getMessage());
+		System.out.println("Application Creation Failed: " + e.getMessage());
 	}
 
 
@@ -540,7 +540,7 @@ public class Outside_After_Greaterthan2year extends Baseclass{
 	// Now handle the alert
 	Alert alert = driver.switchTo().alert();
 	alert.accept();
-
+	logg.info("Application Revoked Successfully");
 	Thread.sleep(5000);
 
 
@@ -586,7 +586,7 @@ public class Outside_After_Greaterthan2year extends Baseclass{
 	    Assert.assertEquals(ver, "IT/ITeS Expansion Unit", "Verify results");
 	    logg.info("Unit Verification Successfully: {}", ver);
 	} catch (AssertionError e) {
-	    System.out.println("Test Case 1 Failed: " + e.getMessage());
+	    System.out.println("Unit Verification Failed: " + e.getMessage());
 	}
 
 	try {
@@ -596,9 +596,9 @@ public class Outside_After_Greaterthan2year extends Baseclass{
 	    
 	    String ver1 = i.vrfsuceesunit();
 	    Assert.assertEquals(ver1, "IT/ITeS Expansion Unit", "Verify scenario");
-	    System.out.println("Test Case 2 Passed: Application Created successful.");
+	    logg.info("Application Created Successfully: {}", ver1);
 	} catch (AssertionError e) {
-	    System.out.println("Test Case 2 Failed: " + e.getMessage());
+		System.out.println("Application Creation Failed: " + e.getMessage());
 	}
 
 
@@ -615,7 +615,7 @@ public class Outside_After_Greaterthan2year extends Baseclass{
 	// Now handle the alert
 	Alert alert = driver.switchTo().alert();
 	alert.accept();
-
+	logg.info("Application Revoked Successfully");
 	Thread.sleep(5000);
 
 
